@@ -1,0 +1,35 @@
+{
+  "name": "Tm Heat Grid",
+  "pitch": "A heat grid for Qlik Cloud Analytics: two dimensions, cell color from a measure, and a second measure for context in each cell.",
+  "question": "Where in the grid are the highest and the lowest values?",
+  "useWhen": "Use it to compare a measure across two dimensions at a glance.",
+  "features": [
+    "Two dimensions form the columns and rows of one grid.",
+    "Cell color shows the primary measure on a sequential or diverging scale.",
+    "An optional second measure adds context in the same cell.",
+    "Three label layouts: inline, stacked, or primary measure only.",
+    "Select by cell, by label or by dragging across cells, with full keyboard support.",
+    "Theme palette, red-yellow-green or custom colors, with an automatic or fixed range.",
+    "Export data and View data work as in other Qlik charts."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Heat grid with four regions as columns and five product categories as rows. Cells show average discount from -12% to 24% in a blue scale with a legend.",
+    "caption": "Average discount by region and category on a sequential blue scale."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Heat grid with the same regions and categories. Each cell shows average discount above a customer count, colored by discount in a blue scale with a legend.",
+      "caption": "Two measures in each cell: average discount and customer count."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Heat grid with the same regions and categories. Cells show average discount and customer count, colored red, yellow and green around a zero midpoint, with a legend.",
+      "caption": "A diverging red-to-green scale marks discounts below and above the midpoint."
+    }
+  ],
+  "shortlinks": [
+    "tmheatgrid"
+  ]
+}
